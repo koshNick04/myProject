@@ -49,9 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-let answer = confirm ("Вам есть 18?");
-let isClose = (answer);
 
-if (isClose){
-    console.log("привет")
-} else {console.log("пока")}
+
+
+

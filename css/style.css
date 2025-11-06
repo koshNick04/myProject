@@ -34,8 +34,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     justify-content: space-between;
     
 }
-.logo_heder_cand img{
-    padding: 6px 0 0 0;
+
+.logo_heder_card {
+    display: flex;
+    align-items:center;
+}
+.logo_heder_card img{
+    width: 30px;
+}
+.logo_heder_card span{
+    font-family: Futura PT;
+    font-size: 21.15px;
+
+
 }
 .heder_tabs{
     list-style: none;
@@ -44,12 +55,26 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     display: flex;
     align-items: center;
     
-
 }
 .heder_tabs a{
     color: black;
-    white-space: nowrap;
+    white-space: nowrap; 
 }
+@media (max-width: 768px) {
+  .heder_resp768{
+    display: none;
+  }
+  .heder_line2 li a{
+    display: none;
+  }
+   .heder_line2 button{
+    display: none;
+  }
+     .heder_line2{
+    height: 0px;
+  }
+}
+
 .heder_tabs a:hover{
     color: gray;
 }
@@ -83,6 +108,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border-radius: 36px;
     margin: 0 44px 0 0;
 }
+@media (max-width: 768px) {
+  .heder_serch {
+    width: 100% ;
+  }
+}
+
 .border_serch{
     border: none;
     background: none;
